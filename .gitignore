@@ -1,0 +1,17 @@
+# Binary / executable
+ecdh_demo
+ecdh_demo.exe
+
+# Build files
+*.o
+*.obj
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
