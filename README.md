@@ -1,10 +1,3 @@
-Siap 👍
-Untuk repo **ECDH + AES-256-GCM demo** seperti punyamu, isi `README.md` sebaiknya **ringkas, akademis, dan enak dibaca dosen/reviewer**. Aku kasih **template siap pakai** (tinggal copy-paste).
-
----
-
-## Contoh `README.md` (Recommended)
-
 ````md
 # ECDH + AES-256-GCM Secure Communication Demo
 
@@ -118,3 +111,4 @@ President University
 This project is provided for **educational purposes only**.
 
 ```
+
