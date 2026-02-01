@@ -1,4 +1,3 @@
-````md
 # ECDH + AES-256-GCM Secure Communication Demo
 
 This repository demonstrates a **secure communication channel** using  
@@ -8,8 +7,6 @@ This repository demonstrates a **secure communication channel** using
 The demo simulates two parties — **Moniq** and **Resya** — establishing a shared secret,
 deriving a symmetric key, and securely exchanging an encrypted message.
 
----
-
 ## 🔐 Cryptographic Overview
 
 - **Key Exchange**: ECDH (NIST P-256 / secp256r1)
@@ -17,8 +14,6 @@ deriving a symmetric key, and securely exchanging an encrypted message.
 - **Symmetric Encryption**: AES-256-GCM (AEAD)
 - **Randomness Source**: OpenSSL `RAND_bytes`
 - **Library**: OpenSSL 3.x
-
----
 
 ## 🧩 Protocol Flow
 
@@ -28,8 +23,6 @@ deriving a symmetric key, and securely exchanging an encrypted message.
 4. Both parties derive the same shared secret  
 5. Shared secret is expanded using HKDF-SHA-256  
 6. AES-256-GCM is used to encrypt and authenticate messages  
-
----
 
 ## 🛠️ Build & Run
 
@@ -48,8 +41,6 @@ x86_64-w64-mingw32-g++ -std=c++17 -O2 ecdh_demo.cpp -o ecdh_demo -lcrypto
 ```bash
 ./ecdh_demo
 ```
-
----
 
 ## 📌 Example Output
 
@@ -111,4 +102,5 @@ President University
 This project is provided for **educational purposes only**.
 
 ```
+
 
